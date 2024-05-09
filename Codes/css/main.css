@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Nav Bar CSS Start */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    margin-left: 60px;
+    width: 110lpx;
+    height: 90px;
+}
+
+#nav {
+    text-align: right;
+    margin: 20px;
+    padding-right: 50px;
+    margin-left: 35%;
+}
+
+#nav a {
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 20px;
+    font-weight: 600;
+}
+
+#nav a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+/* Nav Bar CSS End */
+
+/* Footer CSS Start*/
+footer {
+    background: linear-gradient(to right, rgb(130, 130, 130), rgb(197, 197, 197));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25em;
+    margin-top: auto;
+}
+
+#phone:hover,
+#location:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Footer CSS End*/
+
+@media screen and (max-width:720px){
+    #nav {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+        align-items: center;
+    }
+    #nav a {
+        margin: 0 2px;
+    }
+    footer {
+        height: 100%;
+    }
+}

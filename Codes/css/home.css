@@ -1,0 +1,92 @@
+/* Content CSS Start */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#hero {
+    background: no-repeat top left/50% 100% url("../images/p7.jpg"), linear-gradient(to right, gray, white);
+    /* background: linear-gradient(to right, gray, white) , no-repeat top right/50% 100% url("p7.jpg"); */
+}
+
+#hero .text {
+    padding-right: 10%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+.doctors {
+    margin: 2em 5%;
+    flex-flow: row wrap;
+}
+
+.card {
+    height: 500px;
+    background-image: linear-gradient(to bottom, gray, white);
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 0.5em 2em;
+    text-align: center;
+    font-size: 1.5em;
+    flex: 0 0 26%;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 130px;
+    width: 130px;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card .text {
+    margin: 15% 10%;
+    font-size: auto;
+    
+}
+
+/* Content CSS End */
+
+@media screen and (max-width:720px){
+    .row {
+        flex-direction: column;
+    }
+    .card {
+        width:90%;
+        height: 100%;
+        margin: 2em 0;
+    }
+
+    #hero {
+        background: no-repeat top left/100% 50% url("../images/p7.jpg"), linear-gradient(to bottom, gray, white);
+    }
+    
+    #hero .text {
+        margin-top: 50%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+    #hero .text {
+        font-size: x-large;
+    }
+}

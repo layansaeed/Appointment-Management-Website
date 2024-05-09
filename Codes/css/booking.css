@@ -1,0 +1,74 @@
+/* Content CSS Start */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    width: 50%;
+    height: 404px;
+    background-image: linear-gradient(to bottom, gray, white);
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 14vh 2em;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h1 {
+    width: 100%;
+    margin: 10px 0;
+}
+.card .main-form {
+    margin: 0.75em;
+    text-align: left;
+    width: 50%;
+}
+.main-form form {
+    display: flex;
+    flex-direction: column;
+}
+.main-form .form-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-form select, .main-form input, .main-form button[type=submit]{
+    height: 30px;
+    width: 164px;
+    font-size: 0.8em;
+    padding:4px 20px 4px 12px;
+    border: 1px solid #454444;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 2px 1px #303338;
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+.main-form input {
+    height: 20px;
+    width:130px;
+}
+.main-form button[type=submit] {
+    margin: 10px auto;
+    background: rgb(113, 113, 113);
+    color: white;
+}
+.main-form button[type=submit]:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(113, 113, 113);
+}
+/* Content CSS End */

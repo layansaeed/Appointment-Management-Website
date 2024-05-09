@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+th,
+td {
+    padding: 5px 15px;
+    text-align: center;
+}
+td a:hover {
+    color: rgb(13, 34, 194);
+    font-weight:bold;
+}
+td #edit:hover {
+    color: rgb(13, 194, 19);
+    font-weight:bold;
+}
+td #delete:hover {
+    color: rgb(194, 13, 13);
+    font-weight:bold;
+}
+h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.card {
+    width: 50%;
+    height: 404px;
+    background-image: linear-gradient(to bottom, gray, white);
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 14vh 2em;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

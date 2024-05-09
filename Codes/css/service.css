@@ -1,0 +1,44 @@
+/* Content CSS Start */
+.cards{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+justify-items: center;
+background-image: linear-gradient(to top, rgb(191,191,191), white);
+
+
+}
+
+.card {
+    width: 50%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, gray, white);
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 40px 2em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 130px;
+    width: 130px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card #text {
+    margin: 30% 20%;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+/* Content CSS End */

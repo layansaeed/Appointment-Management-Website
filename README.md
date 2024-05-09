@@ -34,6 +34,9 @@ Test Plan Evaluation: Critical evaluation of Test Plan results and overall succe
 
 # Folder Structure
 codes folder: html, css and php_codes
+
 report part 1: technical report
+
 report part 2: Design and Development report
+
 report part 3: Back-End Development and Testing

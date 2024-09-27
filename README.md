@@ -1,58 +1,28 @@
 # Appointment Management Website
-This repository contains the project files for the Appointment Management Website. The website serves as a fully functional platform for managing appointments, including user registration, login, appointment requests, and management functionalities.
 
-# Project Overview
-The project involved designing, developing, and publishing a website for appointment management based on hypothetical client requirements. The project was structured into three parts, each encompassing various tasks and deliverables.
+## Introduction
+This project is a fully functional website designed for managing appointments. It allows users to register, log in, request, update, and delete appointments. The website is developed using both front-end and back-end technologies, following good design principles. It includes user authentication, appointment management, and real-time interaction with the system. The project was completed as part of a Website Design & Development course.
 
-# Part 1: Technical Reports
-DNS and Domain Management: Explanation of DNS types and organization of domain names.
+## Research Objectives
+1. Develop a fully functional appointment management website that allows user registration, login, and appointment handling.
+2. Implement both front-end and back-end technologies to create a branded, multi-page website.
+3. Utilize server technologies and management services associated with hosting the website.
+4. Create and use a comprehensive test plan to evaluate the website’s performance and design.
 
-Communication Protocols and Web Infrastructure: Purpose and relationships between communication protocols, server hardware, OS, and web server software.
+## System Features
+- **User Registration**: Allow users to create an account by entering their information.
+- **User Login**: Secure authentication for users to access their profiles and appointments.
+- **Appointment Management**: Users can request, view, update, and delete their appointments.
+- **Real-time Updates**: Reflect changes immediately after a user updates or deletes an appointment.
+- **Secure Data Handling**: User data and appointments are handled securely, ensuring privacy and integrity.
 
-Web Development Technologies: Evaluation of common web development technologies and frameworks.
+## Technologies Used
+- **Front-end**: HTML, CSS, JavaScript for user interface and interaction.
+- **Back-end**: PHP and MySQL for handling database operations and server-side logic.
+- **Database**: MySQL for storing user accounts and appointment details.
+- **Version Control**: Git for source code management and collaboration.
+- **Hosting**: Website is hosted on a live server, accessible via a registered domain.
 
-Search Engine Optimization: Influence of search engines on website performance and techniques for improving site ranking.
+## Conclusion
+The Appointment Management Website demonstrates the integration of front-end and back-end technologies to build a fully functional system. The website meets the client’s requirements for appointment management, ensuring a user-friendly interface and secure data handling. Future improvements could include additional features such as reminders or notifications for appointments and enhanced UI/UX for better user experience.
 
-Front-End and Back-End Technologies: Discussion on capabilities and relationships between front-end and back-end technologies.
-
-Website Creation Tools: Comparison between online website creation tools and custom-built sites.
-
-Tools and Techniques: Evaluation of tools and techniques for custom-built website development.
-
-Justification of Tools: Justification of tools and techniques used in website development.
-
-
-# Part 2: Design and Development
-Client and User Requirements: Full set of client and user requirements.
-
-Sitemap and Wireframe: Development of sitemap and medium-fidelity wireframe.
-
-Domain Registration: Process followed for registering the domain name.
-
-Hosting Service Registration: Process followed for registering the hosting service and uploading files to production environment.
-
-Website Development: Creation of branded, multipage website supported with realistic content.
-
-Evaluation of Design Process: Critical evaluation of design and development process.
-
-Comparison with Design Document: Comparison of multipage website with the design document.
-
-
-# Part 3: Back-End Development and Testing
-Back-End Development: Development of back-end functionalities meeting client requirements.
-
-Test Plan: Creation of a suitable Test Plan for reviewing website functionality and performance.
-
-Quality Assurance (QA): Evaluation of QA process during design and development stages.
-
-Test Plan Evaluation: Critical evaluation of Test Plan results and overall success of the website.
-
-
-# Folder Structure
-codes folder: html, css and php_codes
-
-report part 1: technical report
-
-report part 2: Design and Development report
-
-report part 3: Back-End Development and Testing
